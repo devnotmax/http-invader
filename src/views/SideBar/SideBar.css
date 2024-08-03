@@ -1,0 +1,61 @@
+.side-bar-container {
+  background-color: var(--sideBar-bg);
+  color: var(--text-color);
+  font-family: var(--font-poppins);
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s;
+}
+
+.side-bar-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 3px solid var(--sideBar-text-hover);
+}
+
+.side-bar-logo i {
+  font-size: 2rem;
+  color: var(--logo-color);
+}
+
+.side-bar-info p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.side-bar-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+.side-bar-menu ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.side-bar-menu ul li a:hover {
+  background-color: var(--sideBar-text-hover);
+}
+
+.side-bar-menu ul li.active a {
+  background-color: var(--sideBar-text-hover);
+}
+
+.bx-home-alt {
+  font-size: 1.5rem;
+}
