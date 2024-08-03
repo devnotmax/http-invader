@@ -16,16 +16,24 @@ const SideBar = () => {
       </div>
       <div className="side-bar-menu">
         <ul>
-          <li className={currentPath === "/" ? "active" : ""}>
-            <Link to="/">
-              Home<i className="bx bx-home-alt"></i>
+          <li className={currentPath === "/axios" ? "active" : ""}>
+            <Link to="/axios">
+              <img
+                src="/axios-icon.svg"
+                alt=""
+                style={{ width: "1.5rem", height: "1.5rem" }}
+              />
+              Axios
             </Link>
           </li>
-          <li className={currentPath === "/axios" ? "active" : ""}>
-            <Link to="/axios">Axios</Link>
-          </li>
           <li className={currentPath === "/fetch" ? "active" : ""}>
-            <Link to="/fetch">Fetch</Link>
+            <Link to="/fetch">
+              <i
+                class="bx bxl-javascript"
+                style={{ fontSize: "1.5rem", color: "yellow" }}
+              ></i>
+              Fetch
+            </Link>
           </li>
         </ul>
       </div>

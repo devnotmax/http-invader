@@ -48,6 +48,10 @@
   border-radius: 5px;
 }
 
+.side-bar-menu ul li i{
+  font-size: 1.5rem;
+}
+
 .side-bar-menu ul li a:hover {
   background-color: var(--sideBar-text-hover);
 }

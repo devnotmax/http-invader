@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css"; // Asegúrate de tener estilos para esta página
 import serverIlust from "../../../public/server-ilust.svg";
+import "../../assets/roots.css";
 
 const Home = () => {
   return (
@@ -47,7 +48,10 @@ const Home = () => {
           </ul>
           <h2>Comienza Ahora</h2>
           <p>Explora y realiza tus primeras consultas. ¡Es fácil y rápido!</p>
-          <button onClick={() => (window.location.href = "/query")} className="home-button">
+          <button
+            onClick={() => (window.location.href = "/query")}
+            className="home-button"
+          >
             Hacer una Consulta
           </button>
         </div>

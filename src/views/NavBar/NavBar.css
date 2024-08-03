@@ -1,0 +1,56 @@
+/* NavBar.css */
+
+.nav-bar {
+  background-color: var(--bg-color); /* Color de fondo */
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-bar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-list li {
+  margin-right: 20px;
+}
+
+.nav-bar-list li a {
+  color: var(--text-color); /* Color primario */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-bar-list li a:hover {
+  color: var(--logo-color); /* Color al pasar el mouse */
+}
+
+.socials-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.socials-menu i {
+  color: #73dc8c; /* Color primario para íconos */
+  font-size: 24px;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.socials-menu i:hover {
+  color: var(--text-color); /* Color al pasar el mouse para íconos */
+}
