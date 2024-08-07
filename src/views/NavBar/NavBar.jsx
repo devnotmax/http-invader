@@ -16,10 +16,10 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="#">Docs</a>
+            {/* <a href="#">Docs</a> */}
           </li>
           <li>
-            <a href="#">Blog</a>
+            {/* <a href="#">Blog</a> */}
           </li>
         </ul>
         <div className="socials-menu">

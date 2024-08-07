@@ -49,7 +49,7 @@ const Home = () => {
           <h2>Comienza Ahora</h2>
           <p>Explora y realiza tus primeras consultas. ¡Es fácil y rápido!</p>
           <button
-            onClick={() => (window.location.href = "/query")}
+            onClick={() => (window.location.href = "/fetch")}
             className="home-button"
           >
             Hacer una Consulta

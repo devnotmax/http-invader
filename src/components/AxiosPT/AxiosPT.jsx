@@ -2,7 +2,7 @@ const AxiosPT = () => {
 
     return (
         <div>
-            <h1>AxiosPT</h1>
+            <h1 style={{ textAlign: "center", color: "white" }}>AxiosPT - Proximamente</h1>
         </div>
     );
 }

@@ -1,0 +1,71 @@
+.fetchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+  max-width: 100%;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+}
+
+.fetchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.fetchInput {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.fetchButton {
+  background-color: var(--logo-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: var(--font-kanit);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fetchButton:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  transform: scale(1.1);
+  transition: all 0.1s ease;
+  box-shadow: 0 0 10px var(--secondary-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.fetchTextarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

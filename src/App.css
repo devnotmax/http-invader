@@ -1,6 +1,6 @@
 .appContainer {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
   background-color: var(--bg-color-2);
   gap: none;
   margin: 0;
